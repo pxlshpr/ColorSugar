@@ -27,8 +27,10 @@ public extension Color {
     }
 }
 
+#if os(iOS)
 public extension Color {
     var brightness: CGFloat {
         UIColor(self).brightness
     }
 }
+#endif

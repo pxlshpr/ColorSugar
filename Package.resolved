@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pxlshpr/ColorKit",
       "state" : {
-        "revision" : "9111d423e5ebed1014996253cd7f1856f0d8f558",
-        "version" : "1.2.0"
+        "revision" : "d45ed513998a88230316f8b0ca57230311394896",
+        "version" : "1.2.1"
       }
     }
   ],

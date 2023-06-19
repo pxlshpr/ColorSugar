@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 public extension UIColor {
@@ -128,3 +129,4 @@ public extension UIColor.ColorDifferenceResult {
         }
     }
 }
+#endif

@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "ColorSugar",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v16),
+        .macOS("14.0")
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -15,7 +16,7 @@ let package = Package(
             targets: ["ColorSugar"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pxlshpr/ColorKit", from: "1.2.0")
+        .package(url: "https://github.com/pxlshpr/ColorKit", from: "1.2.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
